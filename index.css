@@ -1,0 +1,33 @@
+#container {
+  border: 1px solid red;
+  width: 20%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  border-radius: 10px;
+}
+.child-container {
+  border: 1px solid green;
+  height: 100px;
+  width: 30%;
+  /* margin: auto;
+  margin-top: 20px; */
+  border-radius: 10px;
+  margin-left: 20px;
+  /* margin-bottom: 20px; */
+}
+.child-container2 {
+  /* border: 1px solid orange; */
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.ndchild {
+  border: 1px solid green;
+  width: 40%;
+  margin-left: 20px;
+  border-radius: 10px;
+}
